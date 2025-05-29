@@ -1,0 +1,18 @@
+# Ignore everything
+*
+
+# But not these!
+!agents/
+!orchestrator/
+!streamlit_app/
+!requirements.txt
+
+# Optionally ignore contents inside these folders
+# that shouldn't be pushed (like checkpoints, temp files, etc.)
+venv/
+.env
+*.pkl
+*.index
+speech_outputs/
+docs/
+models/
